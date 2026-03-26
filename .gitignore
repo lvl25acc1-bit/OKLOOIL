@@ -1,0 +1,45 @@
+# Data files (large — SAR scenes, parquets, etc.)
+data/*
+!data/roi/
+data/roi/*
+!data/roi/cushing_tank_farms.geojson
+
+# Generated figures
+results/figures/*.png
+results/figures/**/*.png
+
+# But keep results JSON and report
+!results/statistical_tests.json
+!results/negative_result_report.md
+
+# Virtual environment
+.venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+data/bulk_download.log
+data/pc_download.log
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Claude cache
+.cache/
+
+# Duplicate mask file
+ll.gpkg
+
+# Intermediate results subdirectories
+results/rtc_only/

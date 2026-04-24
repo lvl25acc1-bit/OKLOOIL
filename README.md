@@ -1,6 +1,9 @@
+
 # Cushing, Oklahoma — SAR-Based Oil Storage Estimation from Sentinel-1
 
 ## TL;DR
+<img width="1500" height="1800" alt="preview_tight_crop" src="https://github.com/user-attachments/assets/afdfc7b3-032d-48b6-8bdc-165b50adeda5" />
+<img width="1785" height="1476" alt="first_diff_scatter" src="https://github.com/user-attachments/assets/419c27bd-e8d5-422c-a7a6-e1b7e46697b2" />
 
 Free Sentinel-1 C-band SAR at 20 m resolution **cannot** reliably estimate crude oil inventory at Cushing, Oklahoma. Raw level correlations (r = -0.53) are entirely spurious — first-differencing eliminates the signal (rho < 0.02 for all features except one marginal case at -0.10). This is a rigorous negative result: 371 SAR scenes, 8 statistical tests, and a pre-registered kill criterion confirm that 20 m resolution is below the floor needed for aggregate backscatter-based storage estimation. Commercial providers achieve r = 0.98 using 1-3 m SAR; this project quantifies why free data cannot replicate that.
 
